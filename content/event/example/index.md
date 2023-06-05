@@ -1,24 +1,24 @@
 ---
-title: Example Talk
+title: Tacit knowledge for explaining how large language models work
 
-event: Wowchemy Conference
-event_url: https://example.org
+event: Meeting of the Society for Philosophy of Psychology
+event_url: https://www.socphilpsych.org/meetings.html
 
-location: Wowchemy HQ
-address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
+location: Pittsburgh, US
+# address:
+#  street: 450 Serra Mall
+#  city: Stanford
+#  region: CA
+#  postcode: '94305'
+#  country: United States
 
-summary: An example talk using Wowchemy's Markdown slides feature.
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+summary: In this talk, I will explore how we can use tacit knowledge as proposed by Davies to explain the behavior of current large language models. 
+# abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2030-06-01T13:00:00Z'
-date_end: '2030-06-01T15:00:00Z'
+date: '2023-06-21T13:00:00Z'
+date_end: '2023-06-21T15:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -31,14 +31,14 @@ tags: []
 featured: false
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  # caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
   focal_point: Right
 
 links:
   - icon: twitter
     icon_pack: fab
     name: Follow
-    url: https://twitter.com/georgecushen
+    url: https://twitter.com/cebudding
 url_code: ''
 url_pdf: ''
 url_slides: ''
@@ -49,7 +49,7 @@ url_video: ''
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+slides: ""
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -59,6 +59,7 @@ slides: example
 projects:
   - example
 ---
+TODO add slides
 
 {{% callout note %}}
 Click on the **Slides** button above to view the built-in slides feature.
