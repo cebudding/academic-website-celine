@@ -7,7 +7,7 @@
 
 appearance:
   theme_day: rose
-  theme_night: dracula
+  theme_night: rose
   font: minimal
   font_size: L
 
