@@ -11,7 +11,8 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  - block: features
+<!--   
+- block: features
     content:
       title: Skills
       items:
@@ -26,7 +27,7 @@ sections:
         - name: Photography
           description: 10%
           icon: camera-retro
-          icon_pack: fas
+          icon_pack: fas -->
   - block: experience
     content:
       title: Experience
