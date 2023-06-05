@@ -82,7 +82,9 @@ email: ''
 highlight_name: true
 ---
 
-Hello! I am a PhD candidate in the Philosophy & Ethics group at Eindhoven University of Technology, where I work on trying to explain how large language models work. More specifically, I am interested in what large language models actually learn from their data, i.e. what they know when they know language. 
+Hello! I am a PhD candidate in the Philosophy & Ethics group at Eindhoven University of Technology, where I work on trying to explain how large language models work. 
+
+More specifically, I am interested in what large language models actually learn from their data and whether this could be considered some kind of knowledge, such as conceptual knowledge. 
 
 In my PhD project, I am supervised by [dr. Carlos Zednik](http://explanations.ai/) and [prof. dr. Vincent Müller](http://www.sophia.de/). 
 {style="text-align: justify;"}
