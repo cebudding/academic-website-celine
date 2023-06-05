@@ -7,7 +7,7 @@
 
 appearance:
   theme_day: rose
-  theme_night: rose
+  theme_night: dracula
   font: minimal
   font_size: L
 
@@ -62,7 +62,7 @@ locale:
 features:
   syntax_highlighter:
     theme_light: rose
-    theme_dark: rose
+    theme_dark: dracula
   math:
     enable: false
   privacy_pack:
