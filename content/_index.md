@@ -67,7 +67,7 @@ sections:
     content:
       title: Contact
       subtitle:
-      email: c dot e dot budding at tue dot nl 
+      email: c \[dot\] e \[dot\] budding \[at\] tue \[dot\] nl 
       # Automatically link email and phone or display as text?
       autolink: false
       # Email form provider
