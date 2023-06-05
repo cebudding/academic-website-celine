@@ -73,7 +73,7 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/resume.pdf
+    link: uploads/CV_Budding.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -82,5 +82,7 @@ email: ''
 highlight_name: true
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hello! I am a PhD candidate in the Philosophy & Ethics group at Eindhoven University of Technology, where I work on trying to explain how large language models work. More specifically, I am interested in what large language models actually learn from their data, i.e. what they know when they know language. 
+
+In my PhD project, I am supervised by [dr. Carlos Zednik](http://explanations.ai/) and [prof. dr. Vincent Müller](http://www.sophia.de/). 
 {style="text-align: justify;"}
