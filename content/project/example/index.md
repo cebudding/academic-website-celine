@@ -9,7 +9,7 @@ date: '2016-04-27T00:00:00Z'
 external_link: ''
 
 image:
-  caption: Conceptual knowledge: learning associations between concepts and corresponding properties. 
+  caption: Conceptual knowledge as learning associations between concepts and corresponding properties. 
   focal_point: Smart
 
 links:
