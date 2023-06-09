@@ -59,16 +59,18 @@ slides: ""
 projects:
   - tacit-knowledge-and-llms
 ---
-TODO add slides
+In this talk, I will explore how we can use tacit knowledge to explain the behavior of current large language models. In particular, I argue that large language models might learn something beyond just predicting the next word during training. One way to determine what these models learn is to look at their model internals. However, due to the black box problem it is not straightforward to interpret these parameters. Therefore, I propose that we can conceptualize waht LLMs learn as _tacit knowledge_ as proposed by Martin Davies. This account of tacit knowledge introduces a particular causal structure that would support attribution of some kind of knowledge. In the talk, I first introduce the account in more detail and discuss some potential issues when applying this to connectionist neural networks. Then, I argue that we can nevertheless apply this account for explaining current LLMs and illustrate this using an example, namely [ROME by Meng and colleagues (2022)](https://rome.baulab.info/). I end with some recommendations for further research. 
 
-{{% callout note %}}
-Click on the **Slides** button above to view the built-in slides feature.
-{{% /callout %}}
+{{<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTDmugRGLTnQMpRs1cQGpxquL87GznTKcAVvZIXzHfbe88sBdZ4amau3RuYlBywm00cXw46nmpDCzJw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>}}
 
-Slides can be added in a few ways:
+# {{% callout note %}}
+# Click on the **Slides** button above to view the built-in slides feature.
+# {{% /callout %}}
 
-- **Create** slides using Wowchemy's [_Slides_](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
+# Slides can be added in a few ways:
 
-Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page.
+# - **Create** slides using Wowchemy's [_Slides_](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+# - **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+# - **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
+
+#Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page.
