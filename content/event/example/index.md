@@ -58,10 +58,7 @@ slides: ""
 #   Otherwise, set `projects = []`.
 projects:
   - tacit-knowledge-and-llms
----
-In this talk, I will explore how we can use tacit knowledge to explain the behavior of current large language models. In particular, I argue that large language models might learn something beyond just predicting the next word during training. One way to determine what these models learn is to look at their model internals. However, due to the black box problem it is not straightforward to interpret these parameters. Therefore, I propose that we can conceptualize waht LLMs learn as _tacit knowledge_ as proposed by Martin Davies. This account of tacit knowledge introduces a particular causal structure that would support attribution of some kind of knowledge. In the talk, I first introduce the account in more detail and discuss some potential issues when applying this to connectionist neural networks. Then, I argue that we can nevertheless apply this account for explaining current LLMs and illustrate this using an example, namely [ROME by Meng and colleagues (2022)](https://rome.baulab.info/). I end with some recommendations for further research. 
 
-[Slides can be found here.](https://docs.google.com/presentation/d/e/2PACX-1vTDmugRGLTnQMpRs1cQGpxquL87GznTKcAVvZIXzHfbe88sBdZ4amau3RuYlBywm00cXw46nmpDCzJw/pub?start=false&loop=false&delayms=3000)
 
 # {{% callout note %}}
 # Click on the **Slides** button above to view the built-in slides feature.
@@ -74,3 +71,8 @@ In this talk, I will explore how we can use tacit knowledge to explain the behav
 # - **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
 
 #Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page.
+---
+In this talk, I will explore how we can use tacit knowledge to explain the behavior of current large language models. In particular, I argue that large language models might learn something beyond just predicting the next word during training. One way to determine what these models learn is to look at their model internals. However, due to the black box problem it is not straightforward to interpret these parameters. Therefore, I propose that we can conceptualize waht LLMs learn as _tacit knowledge_ as proposed by Martin Davies. This account of tacit knowledge introduces a particular causal structure that would support attribution of some kind of knowledge. In the talk, I first introduce the account in more detail and discuss some potential issues when applying this to connectionist neural networks. Then, I argue that we can nevertheless apply this account for explaining current LLMs and illustrate this using an example, namely [ROME by Meng and colleagues (2022)](https://rome.baulab.info/). I end with some recommendations for further research. 
+
+> [Slides can be found here.](https://docs.google.com/presentation/d/e/2PACX-1vTDmugRGLTnQMpRs1cQGpxquL87GznTKcAVvZIXzHfbe88sBdZ4amau3RuYlBywm00cXw46nmpDCzJw/pub?start=false&loop=false&delayms=3000)
+
