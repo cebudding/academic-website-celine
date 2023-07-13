@@ -76,4 +76,3 @@ Because Explainable AI faces challenges similar to the ones facing cognitive sci
 
 Collaborative work with Carlos Zednik. 
 
-# > [Slides can be found here.](https://docs.google.com/presentation/d/e/2PACX-1vTDmugRGLTnQMpRs1cQGpxquL87GznTKcAVvZIXzHfbe88sBdZ4amau3RuYlBywm00cXw46nmpDCzJw/pub?start=false&loop=false&delayms=3000)
