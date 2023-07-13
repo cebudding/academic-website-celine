@@ -1,5 +1,5 @@
 ---
-title: Toward Cognitive Models in Explainable AI: Mechanistic Interpretability as a Missing Link?
+title: 'Toward Cognitive Models in Explainable AI: Mechanistic Interpretability as a Missing Link?'
 
 event: Biannual Conference of the European Society for Philosophy of Science
 event_url: https://philsci.eu/EPSA23
