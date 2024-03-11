@@ -22,14 +22,14 @@ organizations:
     url: https://www.tue.nl/en/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am a PhD candidate at Eindhoven University of Technology, where I am working on explainability for large language models. 
+bio: I am a PhD candidate at Eindhoven University of Technology, where I am investigating what large language models know about language.  
 
 # Interests to show in About widget
 interests:
   - Philosophy of Artificial Intelligence
   - Philosophy of Cognitive Science  
   - Large language models 
-  - Science communication 
+  - AI standardization & policy 
 
 # Education to show in About widget
 education:
@@ -82,9 +82,9 @@ email: ''
 highlight_name: true
 ---
 
-Hello! I am a PhD candidate in the Philosophy & Ethics group at Eindhoven University of Technology, where I work on trying to explain how large language models work. 
+Hello! I am a PhD candidate in the Philosophy & Ethics group at Eindhoven University of Technology, where I work on philosophy of AI and large language models. 
 
-More specifically, I am interested in what large language models actually learn from their data and whether this could be considered some kind of knowledge, such as conceptual knowledge. 
+More specifically, I investigate if large language models acquire any knowledge of language, and if so, what kind of knowledge (in fact, I argue they might acquire tacit knowledge of a semantic theory, provided they meet certain constraints). 
 
 In my PhD project, I am supervised by [dr. Carlos Zednik](http://explanations.ai/) and [prof. dr. Vincent Müller](http://www.sophia.de/). 
 {style="text-align: justify;"}
