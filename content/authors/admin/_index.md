@@ -82,9 +82,9 @@ email: ''
 highlight_name: true
 ---
 
-Hello! I am a PhD candidate in the Philosophy & Ethics group at Eindhoven University of Technology, where I work on philosophy of AI and large language models. 
+Hello! I am a PhD candidate in the Philosophy & Ethics group at Eindhoven University of Technology, investigating how we can explain the behavior of large language models.  
 
-More specifically, I investigate if large language models acquire any knowledge of language, and if so, what kind of knowledge (in fact, I argue they might acquire tacit knowledge of a semantic theory, provided they meet certain constraints). 
+More specifically, I argue that we can take inspiration from debates in AI from the 1980s and 90s, and argue that we can explain the behavior of current LLMs through an appeal to tacit knowledge. 
 
 In my PhD project, I am supervised by [dr. Carlos Zednik](http://explanations.ai/) and [prof. dr. Vincent Müller](http://www.sophia.de/). 
 {style="text-align: justify;"}
