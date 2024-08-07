@@ -1,6 +1,6 @@
 ---
-title: Do large language models have conceptual knowledge? 
-summary: Using tacit knowledge to study what large language models learn from the data and whether this might be considered conceptual knowledge. 
+title: Tacit knowledge and explaining the behavior of LLMs 
+summary: I argue that current LLMs might acquire tacit knowledge, which could be used to explain their behavior. 
 tags:
   - Deep Learning
 date: '2016-04-27T00:00:00Z'
@@ -9,7 +9,7 @@ date: '2016-04-27T00:00:00Z'
 external_link: ''
 
 image:
-  caption: Conceptual knowledge as learning associations between concepts and corresponding properties. 
+  caption: Learning semantic similarity in the data. 
   focal_point: Smart
 
 links:
@@ -29,12 +29,13 @@ url_video: ''
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-Large language models (LLMs), such as GPT-3 (Brown et al., 2020) and ChatGPT (OpenAI, 2022) are exhibiting increasingly impressive and arguably human-like behavior: they can translate and generate text and seem to engage in generally realistic dialogue with human users. This behavior has led to questions regarding the cognitive and linguistic capacities of these models. Language has long been associated with intelligence, think for example of the Turing test (Turing, 1950). Since we now have artificial systems that generate language, what does it mean for these systems to ‘know’ language and to what extent should we attribute any cognitive and linguistic capacities like knowledge and understanding to them? 
+Large language models (LLMs), such as ChatGPT (OpenAI, 2022) and Claude (Anthropic AI, 2023) have recently exhibited impressive performance in conversational AI, generating seemingly human-like and coherent texts. In contrast to earlier language modeling methods, Transformer-based LLMs do not contain any prior linguistic knowledge or rules, but are trained on next-word prediction: predicting the most likely next word in an input sequence based on large quantities of training data. Despite this seemingly simple training objective, Transformer-based LLMs far exceed the performance of earlier methods. 
 
-In this project, I aim to defend two claims. Firstly, I argue that it is insufficient to merely consider behavior when determining whether LLMs should be attributed any cognitive or linguistic capacities. Instead, we should develop explanations that show how a network actually works by looking at the internal processing of the model (Block, 1981; Zednik, 2021), i.e. how it mediates transitions from inputs to outputs. This could show what regularities the network picks up from the input data, what representations are learned, and what structures underlie generalization to new inputs. These kinds of explanations seem necessary to evaluate whether LLMs have an internal structure that supports robust linguistic capacities (See e.g. Piantadosi & Hill, 2022) or are mere ‘stochastic parrots’ that cannot capture meaning (Bender et al., 2021; Bender & Koller, 2020). 
- 
-Due to the opacity and scale of these networks, however, it is unclear how these explanations should be developed. Drawing on work from Davies (1987, 1990) and a recent paper by Lam (2022), my second claim is that tacit knowledge could be a promising theoretical posit for developing how-explanations of LLMs. In the context of neural networks, tacit knowledge is defined as implicitly represented rules that are used by the network to guide its behavior. To be ascribed tacit knowledge, Davies proposes that networks should, amongst others, meet the constraint of causal systematicity, which requires that there is a pattern of causal common factors that mediates transitions from similar inputs to similar outputs. The problem is, however, that this is not directly applicable to contemporary LLMs due to their distributed nature. To show that tacit knowledge might nevertheless be helpful for developing how-explanations, I critically reflect on Davies’ conception of tacit knowledge and argue that it could in fact be used to explain the behavior of LLMs to some extent. 
- 
-In summary, I have the following aims: a) to introduce and nuance the current discussions regarding the potential cognitive and linguistic capacities of LLMs, b) to argue that attribution of such capacities requires a suitable internal structure, c) to propose that tacit knowledge is one way to conceptualize such a structure, and d) to critically evaluate and adapt Davies’ account of tacit knowledge to make it suitable for contemporary LLMs. 
+Given this impressive performance, there is an increased interest in not only studying the behavior of these systems, but also investigating the underlying processing and how these systems make their predictions. That is, the focus is not only on the performance, but increasingly also on something like what Chomsky (1965) called the underlying competence. For instance, it has been proposed that LLMs might not just perform next-word prediction based on surface statistics, but that they in fact learn something akin to symbolic rules (Lepori et al., 2023; Pavlick, 2023) or even knowledge (Meng et al., 2022; Yildirim & Paul, 2023). While it might seem appealing to attribute knowledge to LLMs to explain their impressive performance, however, it remains unclear what kind of knowledge LLMs might acquire and when this could be attributed. 
+
+Taking inspiration from earlier debates between symbolic and connectionist AI in the 1980s and 90s (e.g. Clark, 1991; Fodor & Pylyshyn, 1988), I propose that tacit knowledge, as defined by Davies  (Davies, 1990, 2015), provides a suitable way to conceptualize potential knowledge in LLMs. That is, if the constraints as set out by Davies (1990) are met by a particular LLM, that system can be said to have tacit knowledge. Tacit knowledge, in this context, refers to implicitly represented rules or structures that causally affect the system’s behavior. As connectionist systems are known not to have explicit knowledge, in contrast to earlier symbolic systems, tacit knowledge provides a promising way to nevertheless conceptualize and identify meaningful representations in the model internals. Yet, Davies himself argued that the connectionist systems he was concerned with do not meet the constraints for attributing tacit knowledge. While this objection might have held for connectionist systems in the 80s and 90s, however, I argue that current LLMs could in fact meet Davies’ constraints and be said to have tacit knowledge, due to particular innovations in the Transformer architecture (Vaswani et al., 2017). 
+
+Taken together, the aims of this contribution are fourfold: 1) to illustrate why LLMs might be thought to learn more than next-word prediction, 2) to propose Davies’ account of tacit knowledge as way to characterize and provide conditions for attributing a form of knowledge to LLMs, 3) to address Davies’ objection to applying tacit knowledge to connectionist networks, and 4) to show that some current LLMs meet Davies’ constraints and could thus be said to have tacit knowledge. 
+
 
 {style="text-align: justify;"}
