@@ -5,7 +5,7 @@ authors:
 author_notes:
 # - "Equal contribution"
 # - "Equal contribution"
-date: "2025-04T00:00:00Z"
+date: "2025-04-16T00:00:00Z"
 doi: "doi:10.1017/psa.2025.19"
 
 # Schedule page publish date (NOT publication's date).
@@ -33,7 +33,7 @@ featured: true
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://www.cambridge.org/core/journals/philosophy-of-science/article/what-do-large-language-models-know-tacit-knowledge-as-a-potential-causalexplanatory-structure/9475F1504081116099098C37D6F57611
+url_pdf: 'https://www.cambridge.org/core/journals/philosophy-of-science/article/what-do-large-language-models-know-tacit-knowledge-as-a-potential-causalexplanatory-structure/9475F1504081116099098C37D6F57611'
 url_code: ''
 url_dataset: ''
 url_poster: ''
