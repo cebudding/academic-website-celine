@@ -28,7 +28,7 @@ abstract: It is sometimes assumed that Large Language Models (LLMs) know languag
 
 tags:
 - Source Themes
-featured: true
+featured: false
 
 # links:
 # - name: ""
